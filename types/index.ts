@@ -46,7 +46,7 @@ export type OptionProps = {
 export type CustomFilterProps = {
     title: string;
     options: OptionProps[];
-    setFilter: (value: string) => void;
+    setFilter: (value: string | number) => void;
 }
 
 export type ShowMoreProps = {
