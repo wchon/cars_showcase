@@ -46,9 +46,11 @@ export type OptionProps = {
 export type CustomFilterProps = {
     title: string;
     options: OptionProps[];
+    setFilter: (value: string) => void;
 }
 
 export type ShowMoreProps = {
     pageNumber: number;
     isNext: boolean;
+    setLimit: (newLimit: number) => void;
 }
